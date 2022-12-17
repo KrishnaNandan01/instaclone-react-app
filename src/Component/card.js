@@ -64,9 +64,9 @@ return (
                 <img  className="like-share" src={heart} alt="like"/>
                  <img className="like-share" id="share" src={share} alt="share"/>
             </span>
-            <span id="date-stamp">date</span>
+            <span id="date-stamp">{item.date}</span>
         </div>
-        <p  id="number-like">likes</p>
+        <p  id="number-like">{item.like}</p>
         <h3>{item.description}</h3>
         </div>
         )
